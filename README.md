@@ -142,7 +142,10 @@ chatApp/
 - Established WebSocket connection between client and server
 - Emitted and listened for events to broadcast messages and typing updates
 - Handled room joins for group messaging
-
+- Added typing indicators that show "User is typing…" in real time using Socket.IO events. 
+- Status resets on message send or timeout. 
+- Tracked user connection status via Socket.IO and reflected it visually using 
+colored dots or badges (green = online, gray = offline).
 ### MongoDB Integration
 - Stored user credentials, chat history, and group metadata
 - Enabled retrieval of previous messages for persistent chat experience
